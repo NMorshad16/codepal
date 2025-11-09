@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>CodePal — Minimal Offline Edition</title>
+  <link rel="stylesheet" href="/static/styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>CodePal <span class="badge">offline</span></h1>
+    <p class="subtitle">Generate • Explain • Debug — built for beginners</p>
+
+    <section class="card">
+      <label for="language">Language</label>
+      <select id="language">
+        <option value="python">Python</option>
+        <option value="javascript">JavaScript</option>
+        <option value="cpp">C++</option>
+        <option value="java">Java</option>
+      </select>
+      <label for="prompt">What do you want to build?</label>
+      <input id="prompt" placeholder="e.g., simple calculator / fizzbuzz / todo / guessing game"/>
+      <button id="btn-generate">Generate Code</button>
+    </section>
+
+    <section class="card">
+      <label for="code">Your Code</label>
+      <textarea id="code" rows="14" placeholder="Paste or generate code here..."></textarea>
+      <div class="row">
+        <button id="btn-explain">Explain</button>
+        <button id="btn-debug">Debug</button>
+        <button id="btn-copy">Copy</button>
+        <button id="btn-download">Download .txt</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <label for="output">Output</label>
+      <pre id="output" class="output"></pre>
+    </section>
+
+    <footer>
+      <small>Made with ♥ for learning. No external APIs required.</small>
+    </footer>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
