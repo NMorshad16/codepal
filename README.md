@@ -6,25 +6,25 @@ Built using Flask (Python) with a clean front-end, it runs fully offline without
 
 ---
 
-## Features
+# Features
 
-- ✅ Generate simple starter programs (calculator, to-do list, FizzBuzz, guessing game)
-- ✅ Explain code step-by-step in human-friendly language
-- ✅ Basic debugging for Python syntax errors and general structure issues
-- ✅ Multi-language support (Python, JavaScript, C++, Java)
-- ✅ Offline usage with no API keys required
-- ✅ Beginner-friendly UI for students learning to code
+ Generate simple starter programs (calculator, to-do list, FizzBuzz, guessing game)
+ Explain code step-by-step in human-friendly language
+ Basic debugging for Python syntax errors and general structure issues
+ Multi-language support (Python, JavaScript, C++, Java)
+ Offline usage with no API keys required
+ Beginner-friendly UI for students learning to code
 
 
-## Tech Stack 
+# Tech Stack 
 
-**Python 3**
-**Flask**
-**HTML / CSS**
-**JavaScript**
-**AST parsing (for Python code analysis)**
+*Python 3*
+*Flask*
+*HTML / CSS*
+*JavaScript*
+*AST parsing (for Python code analysis)*
 
-## Project Structure
+# Project Structure
 
 odepal/
 │
